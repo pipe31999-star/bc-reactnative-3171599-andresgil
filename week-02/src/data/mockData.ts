@@ -1,0 +1,88 @@
+import { Agent } from '../types';
+
+export const mockAgents: Agent[] = [
+  {
+    id: '1',
+    name: 'María García López',
+    status: 'available',
+    phone: '+34 912 345 678',
+    calls_handled: 45,
+  },
+  {
+    id: '2',
+    name: 'Juan Carlos Rodríguez',
+    status: 'busy',
+    phone: '+34 912 345 679',
+    calls_handled: 52,
+  },
+  {
+    id: '3',
+    name: 'Laura Fernández Pérez',
+    status: 'available',
+    phone: '+34 912 345 680',
+    calls_handled: 38,
+  },
+  {
+    id: '4',
+    name: 'Roberto Martínez Sánchez',
+    status: 'offline',
+    phone: '+34 912 345 681',
+    calls_handled: 61,
+  },
+  {
+    id: '5',
+    name: 'Ana Isabel Gómez',
+    status: 'available',
+    phone: '+34 912 345 682',
+    calls_handled: 29,
+  },
+  {
+    id: '6',
+    name: 'Fernando López Giménez',
+    status: 'busy',
+    phone: '+34 912 345 683',
+    calls_handled: 48,
+  },
+  {
+    id: '7',
+    name: 'Claudia Ramírez Castro',
+    status: 'available',
+    phone: '+34 912 345 684',
+    calls_handled: 55,
+  },
+  {
+    id: '8',
+    name: 'David Torres Morales',
+    status: 'busy',
+    phone: '+34 912 345 685',
+    calls_handled: 42,
+  },
+  {
+    id: '9',
+    name: 'Elena Ruiz Martínez',
+    status: 'offline',
+    phone: '+34 912 345 686',
+    calls_handled: 37,
+  },
+  {
+    id: '10',
+    name: 'Sergio Vázquez Delgado',
+    status: 'available',
+    phone: '+34 912 345 687',
+    calls_handled: 51,
+  },
+  {
+    id: '11',
+    name: 'Patricia Soto Álvarez',
+    status: 'busy',
+    phone: '+34 912 345 688',
+    calls_handled: 46,
+  },
+  {
+    id: '12',
+    name: 'Andrés Cabrera Jiménez',
+    status: 'available',
+    phone: '+34 912 345 689',
+    calls_handled: 39,
+  },
+];
